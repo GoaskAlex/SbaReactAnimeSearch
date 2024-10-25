@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { useEffect } from "react";
 import Axios from "axios";
 import axios from "axios";
+import AnimeItem from "./AnimeItem";
+
 
 function AnimeApi() {
   const [endPoint, setEndPoints] = useState("");
